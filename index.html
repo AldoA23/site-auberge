@@ -3,9 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Location de Vacances - Naples</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>La magnifique Naples</h1>
+        <nav>
+            <ul>
+
+                <li> <a href="#Description">Description</a></li>
+                <li> <a href="#Galerie">Galerie</a></li>
+                <li> <a href="#Services">Services</a></li>
+                <li> <a href="#Avis">Avis</a></li>
+                <li> <a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="Description">
+            <h2>Description</h2>
+            <p>Naples, située sur la côte ouest de l'Italie, est célèbre pour sa riche histoire, sa culture dynamique et sa délicieuse gastronomie, notamment la pizza. Ses ruelles animées et ses monuments emblématiques, comme le Palais Royal et le Château de l'Œuf, en font une destination incontournable. De plus, Naples est le point de départ idéal pour explorer les sites voisins comme Pompéi et la côte amalfitaine.</p>
+            <h3>Points forts</h3>
+            <ul>
+                <li>Patrimoine culinaire</li>
+                <li>Sites historiques</li>
+                <li>Proximité des attractions </li>
+            </ul>
+        </section>
+
+        <section id="Galerie">
+            <h2>Galerie</h2>
+            <div>
+                <img src="images/image1.jpg" alt="vue sur la mer et le vésuve" width="300" height="200">
+                <img src="images/image2.jpg" alt="vue de naples depuis le ciel" width="300" height="200">
+                <img src="images/image3.jpg" alt="vue des rues de naples" width="300" height="200">
+            </div>
+        </section>
+
+<section id="Services">
+        <h2>Services</h2>
+
+        <ul>
+            <li><strong>Wi-Fi :</strong>Inclus</li>
+            <li><strong>Parking :</strong>Privé et sécurisé</li>
+            <li><strong>Petit-déjeuner :</strong>Disponible sur demande</li>
+            <li><strong>Piscine :</strong>Accés libre</li>
+        </ul>
+</section>
+
+        <section id="Avis">
+            <h2>Avis</h2>
+            <blockquote>
+                <p>"Superbe expérience ! Le lieu est magnifique et très bien entretenu." - Madame Laporte</p>   
+            </blockquote>
+        
+            <blockquote>
+                <p>"Superbe expérience ! Le lieu est magnifique et très bien entretenu." - Madame Laporte</p>   
+            </blockquote>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form action="send8mail.php" method="post"></form>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        
+            <button>Envoyer</button>
+        
+        </section>
+
+
+    </main>
+    <foote></foote>
 </body>
 </html>
